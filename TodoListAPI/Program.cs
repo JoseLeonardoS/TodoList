@@ -27,8 +27,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-builder.WebHost.UseUrls("http://0.0.0.0:5000");
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
